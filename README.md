@@ -36,5 +36,5 @@
 
 ##### 2、使用 Gulp 完成 项目 的自动化构建
 
-- 代码路径： code/my-scaffolding
+- 代码路径： [my-gulp]: https://github.com/ChengLK/fed-e-task-02-01/tree/master/my-gulp
 
