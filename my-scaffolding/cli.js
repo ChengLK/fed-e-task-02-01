@@ -1,0 +1,28 @@
+#!/usr/bin/env node
+
+const path = require('path')
+const fs = require('fs')
+const inquirer = require('inquirer')
+const ejs = require('ejs')
+
+inquirer.prompt([
+    {
+        type: 'input',
+        name: 'name',
+        message: 'Project name?'
+    }
+])
+.then(anwsers => {
+    const temlDir = path.join(__dirname, 'templates')
+    const destDir = process.cwd()
+
+    fs.readdir(temlDir, (err, files) => {
+        if(err) throw err
+        files.forEach(file => {
+            ejs.renderFile(path.join(temlDir, file), anwsers, (err, result) => {
+                if(err) throw err
+                fs.writeFileSync(path.join(destDir, file), result)
+            })
+        })
+    })
+})
