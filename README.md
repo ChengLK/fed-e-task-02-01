@@ -32,12 +32,12 @@
   - 新建模板文件，html文件关联询问环节用户输入
   - 通过fs模块读取模板文件内容，路径
   - 通过ejs模板引擎，渲染路径对应的文件，通过文件写入功能，将模板生成内容生成到新目录中。
-- 代码路径： [my-scaffolding]: https://github.com/ChengLK/fed-e-task-02-01/tree/master/my-scaffolding 
+- 代码路径： [my-scaffolding](https://github.com/ChengLK/fed-e-task-02-01/tree/master/my-scaffolding "my-scaffolding")
 
 ##### 2、使用 Gulp 完成 项目 的自动化构建
 
-- 代码路径： [my-gulp]: https://github.com/ChengLK/fed-e-task-02-01/tree/master/my-gulp
+- 代码路径： [my-gulp](https://github.com/ChengLK/fed-e-task-02-01/tree/master/my-gulp "my-gulp")
 
 ##### 3、使用 Grunt 完成 项目 的自动化构建
 
-- 代码路径： [pages-boilerplate]: https://github.com/ChengLK/fed-e-task-02-01/tree/master/pages-boilerplate
+- 代码路径： [pages-boilerplate](https://github.com/ChengLK/fed-e-task-02-01/tree/master/pages-boilerplate "pages-boilerplate")
