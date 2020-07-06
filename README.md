@@ -38,3 +38,6 @@
 
 - 代码路径： [my-gulp]: https://github.com/ChengLK/fed-e-task-02-01/tree/master/my-gulp
 
+##### 3、使用 Grunt 完成 项目 的自动化构建
+
+- 代码路径： [pages-boilerplate]: https://github.com/ChengLK/fed-e-task-02-01/tree/master/pages-boilerplate
